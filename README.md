@@ -1,41 +1,38 @@
-# Website
+# Talawa Docs
 
-This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
+💬 Join the community on Slack. The link can be found in the `Talawa` [README.md](https://github.com/PalisadoesFoundation/talawa) file.
 
-### Installation
+[![N|Solid](static/img/logos/talawa-logo-200x200.png)](https://github.com/PalisadoesFoundation/developer-docs)
 
-```
-$ yarn
-```
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+[![GitHub stars](https://img.shields.io/github/stars/PalisadoesFoundation/developer-docs.svg?style=social&label=Star&maxAge=2592000)](https://github.com/PalisadoesFoundation/developer-docs)
+[![GitHub forks](https://img.shields.io/github/forks/PalisadoesFoundation/developer-docs.svg?style=social&label=Fork&maxAge=2592000)](https://github.com/PalisadoesFoundation/developer-docs)
 
-### Local Development
+Talawa is a modular open-source project to manage group activities of both non-profit organizations and businesses.
 
-```
-$ yarn start
-```
+Core features include:
 
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
+1.  Membership management
+2.  Groups management
+3.  Event registrations
+4.  Recurring meetings
+5.  Facilities registrations
 
-### Build
+`talawa` is based on the original `quito` code created by the [Palisadoes Foundation][pfd] as part of its annual Calico Challenge program. Calico provides paid summer internships for Jamaican university students to work on selected open source projects. They are mentored by software professionals and receive stipends based on the completion of predefined milestones. Calico was started in 2015. Visit [The Palisadoes Foundation's website](http://www.palisadoes.org/) for more details on its origin and activities.
 
-```
-$ yarn build
-```
+# Talawa Components
 
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
+`talawa` has these major software components:
 
-### Deployment
+1. **talawa**: [A mobile application with social media features](https://github.com/PalisadoesFoundation/talawa)
+1. **talawa-api**: [An API providing access to user data and features](https://github.com/PalisadoesFoundation/talawa-api)
+1. **talawa-admin**: [A web based administrative portal](https://github.com/PalisadoesFoundation/talawa-admin)
+1. **developer-docs**: [The online documentation website](https://github.com/PalisadoesFoundation/developer-docs)
 
-Using SSH:
+# Documentation
 
-```
-$ USE_SSH=true yarn deploy
-```
+- The `talawa` documentation can be found [here](https://docs.talawa.io/).
+- Want to contribute? Look at [CONTRIBUTING.md](CONTRIBUTING.md) to get started.
+- Visit the [Talawa-Docs GitHub Repository](https://github.com/PalisadoesFoundation/talawa) to see the code.
 
-Not using SSH:
 
-```
-$ GIT_USER=<Your GitHub username> yarn deploy
-```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
