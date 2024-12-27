@@ -15,17 +15,7 @@ import type { SidebarsConfig } from "@docusaurus/plugin-content-docs";
 const sidebars: SidebarsConfig = {
   docs: [
     "introduction/introduction",
-    "introduction/sponsors",
-    "introduction/volunteers",
-    {
-      type: "category",
-      label: "Projects",
-      link: {
-        type: "generated-index",
-      },
-      collapsed: true,
-      items: ["projects/talawa", "projects/switchmap", "projects/pattoo"],
-    },
+    
     {
       type: "category",
       label: "Git Guide",
@@ -84,6 +74,16 @@ const sidebars: SidebarsConfig = {
         },
       ],
     },
+    {
+      type: "category",
+      label: "Projects",
+      link: {
+        type: "generated-index",
+      },
+      collapsed: true,
+      items: ["projects/talawa", "projects/switchmap", "projects/pattoo"],
+    },
+    
     {
       type: "category",
       label: "Internships",
@@ -146,8 +146,13 @@ const sidebars: SidebarsConfig = {
           collapsed: true,
           items: ["internships/palisadoes/palisadoes-introduction"],
         },
+
+        
       ],
     },
+    "introduction/volunteers",
+    "introduction/sponsors",
+    
   ],
 };
 

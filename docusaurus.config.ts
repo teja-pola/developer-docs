@@ -130,7 +130,7 @@ const config: Config = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} The Palisadoes Foundation, LLC. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} The Palisadoes Foundation, LLC.`,
     },
     prism: {
       theme: prismThemes.github,
